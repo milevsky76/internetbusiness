@@ -264,6 +264,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   min-height: 25px;
+  margin-bottom: 6px;
   padding: 9px 15px;
   background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), to(#f1f2f1));
   background: linear-gradient(0deg, #e0e0e0 0%, #f1f2f1 100%);
