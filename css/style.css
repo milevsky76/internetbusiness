@@ -237,6 +237,10 @@ body {
   color: #04a0f0;
 }
 
+.call__number:hover, .call__number:focus {
+  text-decoration: underline;
+}
+
 .logo {
   margin: 0;
   padding: 0;
