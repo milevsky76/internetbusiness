@@ -1,0 +1,78 @@
+.slider
+    display: flex
+    width: 775px
+    padding: 0 15px
+    &__left
+        position: relative
+        flex-grow: 1
+        margin-right: 1px
+        background: linear-gradient(145deg, rgba(80,198,228,1) 0%, rgba(60,166,213,1) 100%)
+        border: 2px solid #008FC5
+        border-radius: 24px 0 0 24px
+    &__title
+        margin: 0
+        margin-top: 100px
+        padding: 0
+        padding-right: 3px
+        font-family: serif
+        font-size: 40px
+        font-weight: bold
+        color: white
+        text-align: right
+        text-transform: uppercase
+        &_small
+           font-size: 33px
+    &__radio
+        position: absolute
+        bottom: 8px
+        right: 4px
+    &__right
+        position: relative
+        flex-shrink: 0
+        border-radius: 0 24px 24px 0
+        overflow: hidden
+    &__img
+        width: 538px
+        display: block
+    &__urge
+        position: absolute
+        top: 10px
+        right: 40px
+
+.slider-radio
+    display: flex
+    &__input
+        &:hover + .slider-radio__label, &:focus + .slider-radio__label
+            outline: thin dotted
+            outline: 5px auto -webkit-focus-ring-color
+    &__label
+        display: block
+        width: 12px
+        height: 12px
+        border: 1px solid #205A75
+        background-color: #84D2E9
+        border-radius: 50%
+        cursor: pointer
+        transition: border 0.3s, background-color  0.3s
+        &:not(:first-child)
+            margin-right: 4px
+    &__input
+        &:checked + .slider-radio__label
+            border: 1px solid #92CCE8
+            background-color: #2B2A2A
+
+.urge
+    margin: 0
+    padding: 0
+    font-family: serif
+    font-size: 19px
+    font-weight: bold
+    color: #424343
+    &__str1
+        font-size: 30px
+        color: #000000
+    &__str3, &__str4
+        padding-left: 5px
+    &__str4
+        color: #006393
+        text-transform: uppercase
