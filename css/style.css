@@ -501,4 +501,131 @@ body {
   background-color: #fff;
   border-radius: 24px;
 }
+
+.capabilities__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.capabilities__item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  width: 183px;
+  min-height: 236px;
+  text-align: center;
+  background-color: #CCCDCC;
+  background-image: radial-gradient(circle, #ededed 0%, rgba(255, 255, 255, 0) 50%);
+  background-position: 0px -80px;
+  border: 1px solid #BFBFBF;
+  border-radius: 9px;
+}
+
+.capabilities__title {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-top: 60px;
+  font-size: 15px;
+  color: #525050;
+  text-transform: uppercase;
+}
+
+.capabilities__title_black {
+  color: #000000;
+}
+
+.capabilities__title::before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.capabilities__sublist {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.capabilities__button {
+  display: inline-block;
+  padding: 7px 8px;
+  font-size: 13px;
+  color: #000000;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#bcbcbb), to(#f6f6f6));
+  background-image: linear-gradient(0deg, #bcbcbb 0%, #f6f6f6 100%);
+  border: 1px solid #A4A4A4;
+  border-radius: 14px;
+}
+
+.capabilities__button:hover, .capabilities__button:focus {
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3baede), to(#1f81c6));
+  background-image: linear-gradient(180deg, #3baede 0%, #1f81c6 100%);
+  border: 1px solid #005796;
+}
+
+.capabilities-sublist {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.capabilities-sublist__item {
+  position: relative;
+  padding-left: 26px;
+  font-size: 11px;
+  line-height: 20px;
+  color: #525050;
+}
+
+.capabilities-sublist__item::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 3px;
+  height: 3px;
+  background-color: #525050;
+}
+
+.customer::before {
+  width: 63px;
+  height: 52px;
+  background-image: url(../img/pc.png);
+}
+
+.creative::before {
+  width: 56px;
+  height: 51px;
+  background-image: url(../img/team.png);
+}
+
+.complete::before {
+  width: 68px;
+  height: 54px;
+  background-image: url(../img/monitor.png);
+}
+
+.professional::before {
+  width: 39px;
+  height: 50px;
+  background-image: url(../img/staff.png);
+}
 /*# sourceMappingURL=style.css.map */

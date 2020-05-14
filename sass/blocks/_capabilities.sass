@@ -1,0 +1,93 @@
+.capabilities
+    &__list
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        margin: 0
+        padding: 0
+        list-style: none
+    &__item
+        flex-shrink: 0
+        position: relative
+        width: 183px
+        min-height: 236px
+        text-align: center
+        background-color: #CCCDCC
+        background-image: radial-gradient(circle, rgba(237,237,237,1) 0%, rgba(255,255,255,0) 50%)
+        background-position: 0px -80px
+        border: 1px solid #BFBFBF
+        border-radius: 9px
+    &__title
+        margin: 0
+        margin-bottom: 10px
+        padding: 0
+        padding-top: 60px
+        font-size: 15px
+        color: #525050
+        text-transform: uppercase
+        &_black
+            color: #000000
+        &::before
+            content: ''
+            position: absolute
+            top: 9px
+            left: 50%
+            transform: translateX(-50%)
+            display: block
+            background-repeat: no-repeat
+            background-position: center
+    &__sublist
+        margin: 0
+        margin-bottom: 8px
+    &__button
+        display: inline-block
+        padding: 7px 8px
+        font-size: 13px
+        color: #000000
+        background-image: linear-gradient(0deg, rgba(188,188,187,1) 0%, rgba(246,246,246,1) 100%)
+        border: 1px solid #A4A4A4
+        border-radius: 14px
+        &:hover, &:focus
+            color: #ffffff
+            background-image: linear-gradient(180deg, rgba(59,174,222,1) 0%, rgba(31,129,198,1) 100%)
+            border: 1px solid #005796
+
+.capabilities-sublist
+    padding: 0
+    list-style: none
+    text-align: left
+    &__item
+        position: relative
+        padding-left: 26px
+        font-size: 11px
+        line-height: 20px
+        color: #525050
+        &::before
+            content: ''
+            position: absolute
+            left: 19px
+            top: 50%
+            transform: translateY(-50%)
+            width: 3px
+            height: 3px
+            background-color: #525050
+.customer
+    &::before
+        width: 63px
+        height: 52px
+        background-image: url(../img/pc.png)
+.creative
+    &::before
+        width: 56px
+        height: 51px
+        background-image: url(../img/team.png)
+.complete
+    &::before
+        width: 68px
+        height: 54px
+        background-image: url(../img/monitor.png)
+.professional
+    &::before
+        width: 39px
+        height: 50px
+        background-image: url(../img/staff.png)
