@@ -641,4 +641,57 @@ body {
   height: 50px;
   background-image: url(../img/staff.png);
 }
+
+.youknow {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 220px;
+  padding-left: 10px;
+}
+
+.youknow__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 19px;
+  font-weight: bold;
+  color: #101010;
+}
+
+.youknow__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.youknow__item {
+  position: relative;
+  padding-left: 8px;
+}
+
+.youknow__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.youknow__item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 3px;
+  height: 3px;
+  background-color: #2888db;
+}
+
+.youknow__link {
+  font-size: 11px;
+  color: #2888db;
+  text-decoration: underline;
+}
+
+.youknow__link:hover {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
