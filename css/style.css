@@ -511,6 +511,10 @@ body {
           justify-content: space-between;
 }
 
+.capabilities {
+  margin-bottom: 30px;
+}
+
 .capabilities__list {
   display: -webkit-box;
   display: -ms-flexbox;
