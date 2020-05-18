@@ -12,3 +12,23 @@ body
     width: 805px
     margin: 0 auto    
     padding: 0 15px
+
+.button
+    display: inline-block
+    padding: 7px 8px
+    font-size: 13px
+    color: #000000
+    background-image: linear-gradient(0deg, rgba(188,188,187,1) 0%, rgba(246,246,246,1) 100%)
+    border: 1px solid #A4A4A4
+    border-radius: 14px
+    &:hover, &:focus
+        color: #ffffff
+        background-image: linear-gradient(180deg, rgba(59,174,222,1) 0%, rgba(31,129,198,1) 100%)
+        border: 1px solid #005796
+    &_active
+        color: #ffffff
+        background-image: linear-gradient(180deg, rgba(59,174,222,1) 0%, rgba(31,129,198,1) 100%)
+        border: 1px solid #005796
+        &:hover, &:focus
+            text-decoration: underline
+    
