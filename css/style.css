@@ -709,4 +709,61 @@ body {
 .youknow__link:hover {
   text-decoration: none;
 }
+
+.alternat {
+  margin-right: 18px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 493px;
+}
+
+.alternat__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 19px;
+  font-weight: bold;
+  color: #101010;
+}
+
+.alternat__img {
+  width: 166px;
+  height: 147px;
+  border-radius: 5px;
+}
+
+.alternat__subtitle {
+  display: inline-block;
+  text-align: justify;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 18px;
+}
+
+.alternat__text {
+  text-align: justify;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.alternat__button {
+  font-weight: bold;
+}
+
+.alternat-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.alternat-inner__left {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.alternat-inner__right {
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */
