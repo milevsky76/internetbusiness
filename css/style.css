@@ -540,6 +540,10 @@ body {
           justify-content: space-between;
 }
 
+.main-inner__row:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 .capabilities {
   margin-bottom: 30px;
 }
