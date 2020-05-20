@@ -707,7 +707,7 @@ body {
   text-decoration: underline;
 }
 
-.youknow__link:hover {
+.youknow__link:hover, .youknow__link:focus {
   text-decoration: none;
 }
 
